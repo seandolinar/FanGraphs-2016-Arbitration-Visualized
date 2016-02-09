@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<style>
+
+</style>
+
+<body>
+
+
+
+<div style="width: 600px; border: 1px solid #909090;">
+<div id='d3-container' style="width: 600px;">
+	<div id="viz-controls">	
+		<div id="stat-row" class="tool-controls-row" style="padding: 0px; border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: rgb(80, 174, 38); display: table; table-layout: fixed; width: 100%;"><div class="stat-block active" style="display: table-cell; line-height: 2; border: 1px solid rgb(205, 205, 205); text-align: center; height: 30px; cursor: pointer; font-family: lato, arial; background-color: rgb(80, 174, 38);">Filed</div><div class="stat-block" style="display: table-cell; line-height: 2; border: 1px solid rgb(205, 205, 205); text-align: center; height: 30px; cursor: pointer; font-family: lato, arial; background-color: rgb(249, 249, 249);">Signed</div><div class="stat-block" style="display: table-cell; line-height: 2; border: 1px solid rgb(205, 205, 205); text-align: center; height: 30px; cursor: pointer; font-family: lato, arial; background-color: rgb(249, 249, 249);">All</div></div>
+        <div class="tool-controls-row" style="display: table; table-layout: fixed; width: 100%; height: 40px; margin-bottom: 15px;">
+            <div class="tool-controls-col-1" style="background-color: #cecece; display: table-cell; padding: 15px; font-family: Lato, Arial;">
+                <label for="team-in">Filter By Team: </label>
+                <select id="team-in" class='tool-in' style="border-radius: 0; height: 30px; font-size: 12px; margin-left: 10px; font-family: arial;">
+                </select>
+            </div>
+        </div>
+	</div>
+	<div id="viz-title" style="width: 600px; padding-left: 20px; font-size: 20px;font-family: Lato;">
+		2016 MLB Arbitration Contracts
+		<a href="http://fangraphs.com" target="top">
+        <img id="fg-logo" src="http://www.fangraphs.com/blogs/wp-content/uploads/2015/07/FG_logo_white.png" style="height: 24px; padding-right: 20px; margin: 5px 0 0 0; display: inline-block; float: right;"></a>
+	</div></div><div style="text-align: right; padding: 5px; font-family: Lato,arial; font-size: 10px;">SOURCE: MLB Trade Rumors</div></div>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<!-- <script src="jquery-1.10.2.min.js"></script>
+<script src="d3.v3.js"></script> -->
+<script type="text/javascript" src="viz-arb2016.js"></script>
+
+
+</body>
