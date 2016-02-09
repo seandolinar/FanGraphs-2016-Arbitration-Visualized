@@ -10,7 +10,7 @@ listOut = []
 with io.open('data_arb2016.json', 'w') as jsonOut:
     with io.open('data_arb2016.csv') as f:
 
-        dictArb = csv.DictReader(f, ['Name','TeamName','Service Time','Player','Team','Mid','Final'])
+        dictArb = csv.DictReader(f, ['Name','TeamName','Service Time','Player','Team','Mid','Final','Notes'])
         print dictArb
 
         jsonOut.write(u'[')
